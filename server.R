@@ -12,6 +12,7 @@
 
 library(shiny)
 library(ggplot2)
+require(mgcv)
 
 shinyServer(function(input, output) {
   

@@ -46,8 +46,7 @@ shinyUI(pageWithSidebar(
         tags$li("Species")
       )
     ),
-    h3("Source:"),
-    br(),
+    h4("Source:"),
     code("[1] R. A. Fisher (1936). The use of multiple measurements in taxonomic problems. Annals of Eugenics. 7 (2): 179???188. doi:10.1111/j.1469-1809.1936.tb02137.x")
   ),
   #main panel
