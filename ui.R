@@ -26,7 +26,7 @@ shinyUI(pageWithSidebar(
     br(),
     selectInput('x', label = "1. Select the first variable:", names(dataset[1:4])),
     selectInput('y', label = "2. Select the second variable:", names(dataset[1:4])),
-    sliderInput('sampleSize', 'Number of Bins', min=1, max=150, value=75),
+    sliderInput('sampleSize', 'Number of Samples', min=1, max=150, value=75),
     br(),
     h5("3. Please select data for modelling:"),
     checkboxInput('setosa', 'Setosa'),
